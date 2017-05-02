@@ -3,5 +3,5 @@ web:
   ports:
     - "8080"
 
-  volumes:
-    - ./:/app
+#  volumes:
+#    - ./:/app
