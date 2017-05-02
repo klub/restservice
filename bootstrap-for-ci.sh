@@ -2,7 +2,7 @@
 
 set -e
 
-docker-compose -f docker-compose.test.yml up --build > logfile.log &
+sudo docker-compose -f docker-compose.test.yml up --build > logfile.log &
 
 tail -f logfile.log | while read LOGLINE
 do
