@@ -9,4 +9,5 @@ do
    echo "${LOGLINE}"
    [[ "${LOGLINE}" == *"Started RestServiceApplication"* ]] && pkill -P $$ tail && echo "FINISHED STARTING UP THE APPLICATION"
 done
+echo "ABOUT TO EXIT ZERO"
 exit 0
